@@ -26,6 +26,6 @@ In the series of steps below ,you will learn about markdown, git and github, Ang
 as an opportunity to learn and try to research more about them because you will be needing them on your professional career as
 well.
 
-Please follow the steps given in the link here.
+Please follow the steps given in the [link here.](https://csciclub.github.io/#!steps.md)
 
 

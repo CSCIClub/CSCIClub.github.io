@@ -58,12 +58,12 @@
         /* don't use floating for smaller screens */
         .md-float-left .col-sm-8, .md-float-left .col-sm-4, .md-float-left .col-sm-2 {
             width: 100%;
-            max-width: !important;
+            max-width: important;
             min-width: 100%;
         }
         .md-float-right .col-sm-8, .md-float-right .col-sm-4, .md-float-right .col-sm-2 {
             width: 100%;
-            max-width: !important;
+            max-width: important;
             min-width: 100%;
         }
     }
@@ -81,7 +81,7 @@
         width: auto;
     }
     #md-all .md-copyright-footer {
-        background-color: !important;
+        background-color: important;
         font-size: smaller;
         padding: 1em;
     }
@@ -114,7 +114,7 @@
     ordered & tabbed in a way that represents the nesting of the generated HTML.
 */
 #cboxOverlay{background:#000;}
-#colorbox{}
+#colorbox
         #cboxTitle{position:absolute; bottom:-25px; left:0; text-align:center; width:100%; font-weight:bold; color:#7C7C7C;}
         #cboxCurrent{position:absolute; bottom:-25px; left:58px; font-weight:bold; color:#7C7C7C;}
         #cboxPrevious, #cboxNext, #cboxClose, #cboxSlideshow{position:absolute; bottom:-29px; background-repeat: no-repeat; background-position: 0px 0px; width:23px; height:23px; text-indent:-9999px;}

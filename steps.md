@@ -18,8 +18,7 @@ Make sure to follow  [gyawaliamit7](https://github.com/gyawaliamit7), [prashulsh
 
 ## Step 2
 
-**Note**: Before Going to Step 2. please have a basic understanding of what markdown is. We will be using some mark down
-for these steps.
+**Note**: Before Going to Step 2, please have a basic understanding of what markdown is. We will be using some mark down for these steps.
 Here are some list of Resources to understand about Markdown.
 - [Wikipedia](https://en.wikipedia.org/wiki/Markdown)
 - [Markdown Wiki](http://dynalon.github.io/mdwiki/#!quickstart.md)

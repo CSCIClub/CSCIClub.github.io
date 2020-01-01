@@ -4,114 +4,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <!-- bootstrap css link -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    
     <!-- css link -->
     <link rel="stylesheet" href="design.css">
     <title>CSCI Club - SCSU</title>
 </head>
 <body>
-    
-<div id="entire-content-wrapper">
-
-<!-- sidebar Menu-->
-<div id="sidebar-content-wrapper">
-    <ul class="sidebar-nav-list">
-        <li><a href="test.html">Home</a></li>
-        <li><a href="#">Why Join us?</a></li>
-        <li><a href="#">Club Info</a></li>
-        <li><a href="#">Workshops</a></li>
-        <li><a href="#">Contacts</a></li>
-    </ul>  
+<div class="sidenav">
+  
+  <a href="#about">Home</a>
+  <a href="#services">Why Join us?</a>
+  <a href="#clients">Club Info</a>
+  <a href="#contact">Workshops</a>
+  <a href="#contact">Contacts</a>
 </div>
 
+<div class="main">
 
-<!-- page content located on the right hand side of the page -->
-<div id="page-content-wrapper">
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-md-12"> <!-- change col-md-toanynumber and columns would be assigned accordingly / col 12 means take the entire column-->
-                <a href="#" class="btn btn-success" id="toggle-btn">Menu</a> 
-                    <h1>Welcome to CSCI Club</h1>
-                    <p>
-                        According to the 2015 Department of Campus Involvement study, 71% of St. Cloud State students report being involved on campus. 
-                        National research shows that students who are involved in activities outside of class have better grades, feel more connected to
-                         their university/college, and graduate in less time than students who are not involved. At St. Cloud State University we have over 
-                         200 student organization with more than 1,300 leadership positions. The opportunities are endless and the skills you learn can be 
-                         applied long after you graduate.Below are a few different ways the Department of Campus Involvement is here to help you in your 
-                         Husky experience. Visit the HuskiesConnect Directory to see a list of all the current registered student organizations on campus.
-                         If you aren’t sure where to begin in your involvement journey meet with a Husky Involvement Guide and they will provide personalized 
-                         suggestions of different opportunities just for you.We hope you join us for our annual campus traditions, Mainstreet and Sidestreet. 
-                         These two campus events are a great way to connect with different student organizations, departments and services on campus to see 
-                         all the wonderful opportunities waiting for you.
-                    </p>
-            </div>
-        </div>
-    </div>
-</div>
-<!--page content wrapper end-->
-
+  <h1>Welcome to CSCI Club</h1>
+  <article>
+   <p>According to the 2015 Department of Campus Involvement study, 71% of St. Cloud State students report being involved on campus. 
+ National research shows that students who are involved in activities outside of class have better grades, feel more connected to
+ their university/college, and graduate in less time than students who are not involved. At St. Cloud State University we have over 
+200 student organization with more than 1,300 leadership positions. The opportunities are endless and the skills you learn can be 
+ applied long after you graduate.Below are a few different ways the Department of Campus Involvement is here to help you in your 
+ Husky experience. Visit the HuskiesConnect Directory to see a list of all the current registered student organizations on campus.
+ If you aren’t sure where to begin in your involvement journey meet with a Husky Involvement Guide and they will provide personalized 
+  suggestions of different opportunities just for you.We hope you join us for our annual campus traditions, Mainstreet and Sidestreet. 
+  These two campus events are a great way to connect with different student organizations, departments and services on campus to see 
+  all the wonderful opportunities waiting for you.</p>
+  </article>
 </div>
 
-<!-- jquery script to trigger toggle-btn -->
-<script>
-    $("#toggle-btn").click( function (e){
-       
-        $("#entire-content-wrapper").toggleClass("display-menu"); // selects the entire content and perform action mentioned in display-menu class inside css
-    });
-</script>
-
-
-
-
-
-
-
-
-
-   
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 </body>
 </html>

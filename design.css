@@ -48,15 +48,15 @@ article
   <!-- heading -->
 .main h1
 {
-  background-color: #c20430;
-  color:white;
-  text-align:center;
-  padding:10px;
-  width:600px;
-  margin-left:30%;
-  margin-top:0;
-  padding-left:0 ;
-  postion:absolute;
+background-color: #c20430;
+color:white;
+text-align:center;
+padding:10px;
+width:350px;
+margin:auto;
+margin-top:0;
+padding-left:0 ;
+postion:absolute;
   
 }
   <!-- navbar hover effect -->
@@ -66,4 +66,20 @@ article
     color:#9a9a9a;
 }
 
+ <!-- when screen width  -->
+@media only screen and (max-width:993px) 
+{
+  .main h1
+  {
+    background-color: #c20430;
+    color:white;
+    text-align:center;
+    width:12em;
+    padding:5px;
+    margin:auto;
+    font-size:30px;
+
+  }
+  
+}
 

@@ -1,0 +1,166 @@
+*
+{
+    
+    font-family: Futura,Trebuchet MS,Arial,sans-serif; 
+
+}
+html,
+body {
+    height: 100%;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* cover */
+
+
+.background-image
+{
+    width:100%;
+}
+
+
+
+body
+{
+  background-color:#090b2a !important;
+
+}
+.bg-dark
+{
+  background-color:#090b2a !important;
+}
+
+
+
+.flex-container
+{
+background: url('maxresdefault.jpg');
+width:100%;
+height: 90vh; background-position: center center; /* Center the image */
+background-repeat: no-repeat; /* Do not repeat the image */
+background-size: cover; 
+}
+.main-hd
+{
+    font-size: 60px;
+}
+.moto-text
+{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.date
+{
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.location
+{ 
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+
+
+/* faq */
+.faq-container
+{
+    margin-top:10%;
+}
+.faq-hd1-btn
+{
+    background-color:#090b2a;
+    border-color:#0c2540;
+    width:100%;
+}
+
+
+
+.faq-hd1
+{
+    float:left !important;
+    
+    
+}
+
+
+#faq-item1, #faq-item2, #faq-item3
+{
+    color: white ;
+    background-color: rgb(27, 27, 41);
+    padding:10px;
+    
+}
+
+
+.faq-hd1-btn:hover ,#faq-item1, #faq-item2, #faq-item3
+{
+    background-color:#13164b;
+  
+
+}
+
+.dropdown-toggle::after
+{
+  float:right!important;
+  margin-top:1rem;
+ 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 400px)
+{
+
+    
+    .main-hd{
+        font-size:32px;
+        
+    }
+
+
+
+    .moto-text
+{
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.date
+{
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.location
+{ 
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+}
+
+
+
+@media only screen and (max-width:550px)
+{
+    .faq-hd1 ,.faq-hd
+    {
+        font-size:14px;
+    }
+}
+
+

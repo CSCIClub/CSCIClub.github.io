@@ -1,0 +1,128 @@
+* {
+  font-family: Futura, Trebuchet MS, Arial, sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+img {
+  max-width: 100%;
+}
+
+/* cover */
+
+.background-image {
+  width: 100%;
+}
+
+body {
+  background-color: #090b2a !important;
+}
+.bg-dark {
+  background-color: #090b2a !important;
+}
+
+.flex-container {
+  background: url("maxresdefault.jpg");
+  width: 100%;
+  height: 90vh;
+  background-position: center center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+}
+.main-hd {
+  font-size: 60px;
+  font-family: "Russo One", sans-serif;
+}
+.moto-text {
+  font-size: 2rem;
+  font-weight: 700;
+}
+.date {
+  font-size: 2rem;
+  font-weight: 600;
+}
+.location {
+  font-size: 1.7rem;
+  font-weight: 300;
+}
+
+.event-container {
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+.event-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+}
+
+.event-details {
+  background-image: url("iself-edited.jpg") !important;
+  background-position: center center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+  width: 100%;
+  height: 70vh;
+  text-shadow: 6px 6px 20px black;
+}
+
+/* faq */
+#faq-hd {
+  font-size: 30px;
+  color: white;
+  margin-bottom: 4%;
+}
+.first-faq-btn {
+  width: 100%;
+}
+
+.fa-chevron-down {
+  float: right;
+}
+
+.faq-container {
+  margin-bottom: 10px;
+}
+
+/* footer  */
+
+.footer {
+  background-color: #bebfc3;
+}
+.footer-item .item1,
+.item2,
+.item3 {
+  font-size: 30px;
+}
+
+@media only screen and (max-width: 400px) {
+  .main-hd {
+    font-size: 37px;
+  }
+
+  .moto-text {
+    font-size: 1.5rem;
+    font-weight: 700;
+  }
+
+  #faq-hd {
+    font-size: 25px;
+    margin-bottom: 8%;
+  }
+  .btn,
+  #Ques1,
+  #Ques2,
+  #Ques3,
+  #Ques4,
+  #Ques5,
+  #Ques6 {
+    font-size: 0.6rem !important;
+  }
+  .card-header {
+    padding: 3px;
+  }
+}

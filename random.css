@@ -51,7 +51,7 @@ body {
 
 .event-container {
   margin-top: 5%;
-  margin-bottom: 5%;
+  margin-bottom: 10%;
 }
 .event-info {
   display: flex;
@@ -71,12 +71,16 @@ body {
 }
 
 /* sponsor */
+.sponsors-hd {
+  font-size: 40px;
+}
 .sponsors-container {
   background-color: #fafafd;
+  margin-top: 5%;
 }
 .sponsors_image {
   height: 300px;
-  width: 1000px;
+  width: 300px;
   overflow: hidden;
   padding: 20px;
   object-fit: contain;
@@ -121,6 +125,10 @@ body {
     width: 1000px;
     overflow: hidden;
     object-fit: contain;
+  }
+
+  .sponsors-hd {
+    font-size: 25px;
   }
 }
 

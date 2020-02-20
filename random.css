@@ -70,6 +70,22 @@ body {
   text-shadow: 6px 6px 20px black;
 }
 
+/* sponsor */
+.sponsors-container {
+  background-color: #fafafd;
+}
+.sponsors_image {
+  height: 300px;
+  width: 1000px;
+  overflow: hidden;
+  padding: 20px;
+  object-fit: contain;
+}
+
+.card {
+  background-color: #fafafd;
+  border: none;
+}
 /* faq */
 #faq-hd {
   font-size: 30px;
@@ -99,6 +115,15 @@ body {
   font-size: 30px;
 }
 
+@media only screen and (max-width: 580px) {
+  .sponsors_image {
+    height: 100px !important;
+    width: 1000px;
+    overflow: hidden;
+    object-fit: contain;
+  }
+}
+
 @media only screen and (max-width: 400px) {
   .main-hd {
     font-size: 37px;
@@ -124,5 +149,20 @@ body {
   }
   .card-header {
     padding: 3px;
+  }
+}
+@media only screen and (max-width: 340px) {
+  .moto-text {
+    margin-top: -9rem;
+    font-size: 1.2rem;
+  }
+
+  #faq-hd {
+    font-size: 22px;
+    margin-bottom: 8%;
+  }
+
+  .main-hd {
+    font-size: 32px;
   }
 }

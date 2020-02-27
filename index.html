@@ -93,52 +93,53 @@
   </div>
 
   <!-- testing event section with grid -->
-  <div class="container-fluid event-container">
-    <div class="row">
+  <section id="info">
+    <div class="container-fluid event-container">
+      <div class="row">
 
-      <div class="col-sm-12  ">
-        <h2 class="display-4 text-white  d-flex justify-content-center mt-3 " style="display: block;">[ Event Info ]
-        </h2>
-        <p class="date text-info d-flex justify-content-center mb-3">March <span style="color:#ce1f44;">21</span> <span
-            style="color:white;">-</span>
-          <span style="color:#ce1f44;">22</span></p>
-        <p class="Location text-white d-flex justify-content-center mb-5" style="font-family:cursive;">@ ISELF St.
-          Cloud State University</p>
-      </div>
-
-      <div class="col-sm-12 Info ">
-        <p class=" lead text-white d-flex justify-content-center mb-3 ">
-          HuskiesHack is a 24 Hours non-stop hackatho held at St.Cloud StateUniversity.<br>
-          Students will work on teams of 4 to develop web, mobile, desktop applications <br>
-          to solve a real-world challenging problem provided by our sponsors.
-        </p>
-      </div>
-
-      <div class="col-sm-12  ">
-        <p class="text-danger mb-5 text-monospace font-weight-bold d-flex justify-content-center info-bottom-section">
-          Free Food.
-          Prizes.
-          Networking.</p>
-      </div>
-      <div class="col-sm-12 ">
-        <div class="more-details ">
-          <h2> <a class="mb-2" onclick="/*popup1toggle('2');*/" href="Datasets.pdf" target="_blank"
-              style="cursor: pointer; text-decoration: underline; color:#fefefe">Project
-              Ideas and Data Resources - <a href="https://hack.uiowa.edu/"
-                style="cursor: pointer; text-decoration: underline; color:yellow;" target=" _blank">HackUIowa</a>)</a>
+        <div class="col-sm-12  ">
+          <h2 class="display-4 text-white  d-flex justify-content-center mt-3 " style="display: block;">[ Event Info ]
           </h2>
-          <br>
-          <h2><a onclick="/*popup1toggle('2');*/" class="mb-2  " href="Event Day Schedule.pdf" target="_blank"
-              style="cursor: pointer; text-decoration: underline; color:#fefefe">HuskiesHack Schedule</a>
-          </h2>
-
+          <p class="date text-info d-flex justify-content-center mb-3">March <span style="color:#ce1f44;">21</span>
+            <span style="color:white;">-</span>
+            <span style="color:#ce1f44;">22</span></p>
+          <p class="Location text-white d-flex justify-content-center mb-5" style="font-family:cursive;">@ ISELF St.
+            Cloud State University</p>
         </div>
+
+        <div class="col-sm-12 Info ">
+          <p class=" lead text-white d-flex justify-content-center mb-3 ">
+            Huskies Hack is a 24 Hours non-stop hackathon held at St.Cloud State University.<br>
+            Students will work on teams of 4 to develop web, mobile, desktop applications <br>
+            to solve a real-world challenging problem provided by our sponsors.
+          </p>
+        </div>
+
+        <div class="col-sm-12  ">
+          <p class="text-danger mb-5 text-monospace font-weight-bold d-flex justify-content-center info-bottom-section">
+            Free Food.
+            Prizes.
+            Networking.</p>
+        </div>
+        <div class="col-sm-12 ">
+          <div class="more-details ">
+            <h2> <a class="mb-2" onclick="/*popup1toggle('2');*/" href="Datasets.pdf" target="_blank"
+                style="cursor: pointer; text-decoration: underline; color:#fefefe">Project
+                Ideas and Data Resources - <a href="https://hack.uiowa.edu/"
+                  style="cursor: pointer; text-decoration: underline; color:yellow;" target=" _blank">HackUIowa</a>)</a>
+            </h2>
+            <br>
+            <h2><a onclick="/*popup1toggle('2');*/" class="mb-2  " href="Event Day Schedule.pdf" target="_blank"
+                style="cursor: pointer; text-decoration: underline; color:#fefefe">HuskiesHack Schedule</a>
+            </h2>
+
+          </div>
+        </div>
+
+
       </div>
-
-
     </div>
-  </div>
-
+  </section>
 
 
 
@@ -408,6 +409,30 @@
       </div>
     </div>
 
+    <!-- 9th faq -->
+    <div class="container faq-container">
+      <div id="accordion">
+        <div class="card text-white">
+          <div id="headingOne">
+            <h5 class="mb-0">
+              <button id="faqbutton" class="btn first-faq-btn text-left text-white" data-toggle="collapse"
+                data-target="#Ques9" aria-expanded="true" aria-controls="Ques2">
+                <p class="mb-0"> Is it open to student from different university?<i class="fas fa-chevron-down"></i></p>
+
+              </button>
+            </h5>
+          </div>
+
+          <div id="Ques9" class="collapse " aria-labelledby="headingOne" data-parent="#accordion">
+            <div class="card-body">
+              Unfortunately, No! This is our first Hackathon so we are trying to narrow it down to only St. Cloud State
+              University Student.
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
     <!-- FAQ end -->
 
     </div>

@@ -28,7 +28,7 @@ body {
   height: 90vh;
   background-position: center 35%; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
-  background-size: contain;
+  background-size: 75%;
 }
 .main-hd {
   font-size: 60px;
@@ -150,6 +150,16 @@ body {
 }
 
 /* ***************** Media Screen **************** */
+
+@media screen and (max-width: 640px) {
+  .lead {
+    font-size: 1rem;
+  }
+
+  .more-details {
+    font-size: 15px;
+  }
+}
 @media screen and (max-width: 625px) {
   .main-hd {
     font-size: 40px;
@@ -177,8 +187,8 @@ body {
   }
 
   .flex-container {
-    background-size: 125%;
-    background-position: center 20%;
+    background-size: 90%;
+    background-position: center 10%;
     height: 50vh;
     margin-bottom: 2rem;
   }
@@ -192,7 +202,7 @@ body {
   }
 
   .event-summary {
-    font-size: 18px;
+    font-size: 14px;
     padding: 4px;
   }
 
@@ -213,14 +223,15 @@ body {
   .card-header {
     padding: 3px;
   }
-
+  .sponsor-hd {
+    font-size: 2rem;
+  }
   .sponsor-img {
     height: 100px !important;
-    width: 1000px;
+    width: 200px;
     overflow: hidden;
     object-fit: contain;
   }
-
   .flex-container {
     background: url("connect-logo.png");
     width: 100%;

@@ -22,6 +22,10 @@
 
   <!-- google font -->
   <link href="https://fonts.googleapis.com/css?family=Russo+One&display=swap" rel="stylesheet">
+
+  <!-- animation css -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+
   <title>HuskiesHack</title>
 </head>
 
@@ -60,63 +64,92 @@
     <div class="flex-item1" style="color: #ce1f44;font-family: 'Sigmar One', cursive;
       font-family: 'Dancing Script', cursive;
       font-family: 'Permanent Marker', cursive;">
-      <h3 class="main-hd mt-2">HUSKIES HACK 2020</h3>
+      <h3 class="main-hd mt-5 ">HUSKIES HACK 2020</h3>
+
     </div>
 
 
     <div class="flex-item2 justify-content-between">
+
       <div id="LeadingText" class="text-white lead moto-text">Dream. Design. Code.</div>
 
-      <button class="btn btn-lg mt-3" style="background-color: #ce1f44;"><a
-          href="https://forms.office.com/Pages/ResponsePage.aspx?id=xscRULQKq0ae9PrnSpIaf3gyv7IOWuRNrke59imawCFUODBXVEY3S0NNU0ZYQk9UWVo1RlFRWFBZSy4u"
-          target="_blank" id="RegisterBtn">Register Today!</a></button>
+      <button class="btn btn-lg mt-3 mb-5 RegisterBtn animated bounceInLeft delay-0.5s"><a
+          href="
+        https://forms.office.com/Pages/ResponsePage.aspx?id=xscRULQKq0ae9PrnSpIaf3gyv7IOWuRNrke59imawCFUODBXVEY3S0NNU0ZYQk9UWVo1RlFRWFBZSy4u" target="_blank">Register
+          Today!</a></button>
     </div>
 
   </div>
 
+
   <!-- ********** -->
-  <section id="info">
-    <div class="row event-container">
+  <!-- testing event section with grid -->
+  <div class="container-fluid event-container">
+    <div class="row">
 
+      <div class="col-sm-12  ">
+        <h2 class="display-4 text-white  d-flex justify-content-center mt-3">[ Event Info ]</h2>
+        <p class="date text-info d-flex justify-content-center">March <span style="color:#ce1f44;">21</span> <span
+            style="color:white;">-</span>
+          <span style="color:#ce1f44;">22</span></p>
+        <p class="Location text-white d-flex justify-content-center" style="font-family:cursive;">@ ISELF St.
+          Cloud
+          State
+          University</p>
+      </div>
 
-      <div class="container col-sm-12 event-info event-details ">
-        <!-- <p class="date text-info ">MARCH <span style="color:#ee2324;">21</span> <span style="color:white;">-</span> <span style="color:#ee2324;">22</span></p>
-      <br>
-      <p class="location text-white">@ ISELF SCSU</p> -->
-        <div class="d-flex flex-column align-items-center ml-1">
-          <h2 class="display-4 mb-3 mt-3 text-white">[ Event Info ]</h2>
-          <p class="date text-info">March <span style="color:#ce1f44;">21</span> <span style="color:white;">-</span>
-            <span style="color:#ce1f44;">22</span></p>
-          <p class="Location text-white">@ ISELF St. Cloud State University</p>
-          <div class="event-summary">
-            <p class="Info text-white text-wrap">HuskiesHack is a 24 Hours non-stop hackathon held at St.
-              Cloud State
-              University.<br>
-              Students will work on teams of 4 to develop web, mobile, desktop applications or
-              solve a real-world challenging problem provided by our sponsors.</p>
-            <p class="text-danger mb-5 text-monospace font-weight-bold">Free Food. Prizes. Networking.</p>
-            <a class="mb-2" onclick="/*popup1toggle('2');*/" href="Datasets.pdf" target="_blank"
-              style="cursor: pointer; text-decoration: underline; color:#fefefe">Project
-              Ideas and Data Resources</a>
-            <a onclick="/*popup1toggle('2');*/" href="Event Day Schedule.pdf" target="_blank"
-              style="cursor: pointer; text-decoration: underline; color:#fefefe">HuskiesHack Schedule</a>
-          </div>
+      <div class="col-sm-12 Info ">
+        <p class=" lead text-white mt-5 d-flex justify-content-center ">
+          HuskiesHack is a 24 Hours non-stop hackatho held at St.Cloud StateUniversity.<br>
+          Students will work on teams of 4 to develop web, mobile, desktop applications <br>
+          to solve a real-world challenging problem provided by our sponsors.
+        </p>
+      </div>
 
+      <div class="col-sm-12  mt-5 ">
+        <p class="text-danger mb-5 text-monospace font-weight-bold d-flex justify-content-center info-bottom-section">
+          Free Food.
+          Prizes.
+          Networking.</p>
+        <div class="more-details ">
+          <a class="mb-2 mt-5 mr-5" onclick="/*popup1toggle('2');*/" href="Datasets.pdf" target="_blank"
+            style="cursor: pointer; text-decoration: underline; color:#fefefe">Project
+            Ideas and Data Resources</a>
+          <a onclick="/*popup1toggle('2');*/" class="mb-2 mt-5" href="Event Day Schedule.pdf" target="_blank"
+            style="cursor: pointer; text-decoration: underline; color:#fefefe">HuskiesHack Schedule</a>
         </div>
       </div>
 
 
-
     </div>
-  </section>
-  <!-- ********** -->
+  </div>
 
-  <div class="container-fluid" style="background-color: #fefefe;"">
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- testing event section with grid  ENDDDDD-->
+
+
+
+  <div class="container-fluid" style="background-color: #fefefe;">
     <h4 class=" display-4 text-center mb-4 pt-4">[ Sponsors ]</h4>
 
-    <div class="SponsorRow row mt-0 d-flex align-items-center ">
-      <div class="SponsorHolder col-sm-6"><img src="GeoComm_Logo.png" class="sponsor-img ml-1" alt="GeoComm"> </div>
-      <div class="SponsorHolder col-sm-6 "> <img src="rbc.png" class="sponsor-img " alt="GeoComm"></div>
+    <div class="SponsorRow row my-auto ">
+      <div class="SponsorHolder col-sm-6 d-flex align-items-center animated bounceIn delay-0.5s"><img
+          src="GeoComm_Logo.png" class="sponsor-img img-fluid" alt="GeoComm">
+      </div>
+      <div class="SponsorHolder col-sm-6 d-flex align-items-center animated bounceIn delay-0.5s"><img src="rbc.png"
+          class="sponsor-img img-fluid" alt="GeoComm">
+      </div>
       <!-- <div class="col-sm-4 "><img src="capitaOne.png" class="sponsor-img" alt=""> </div> -->
     </div>
   </div>

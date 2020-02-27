@@ -151,6 +151,12 @@ body {
 
 /* ***************** Media Screen **************** */
 
+@media screen and (max-width: 738px) {
+  .more-details h2 {
+    font-size: 1rem;
+  }
+}
+
 @media screen and (max-width: 640px) {
   .lead {
     font-size: 1rem;
@@ -158,6 +164,10 @@ body {
 
   .more-details {
     font-size: 15px;
+  }
+  .info-bottom-section {
+    font-size: 20px;
+    font-weight: 900 !important;
   }
 }
 @media screen and (max-width: 625px) {
@@ -239,6 +249,31 @@ body {
     background-position: center 40%; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
     background-size: contain;
+  }
+}
+
+/* iphone x screen size */
+@media screen and (max-width: 375px) {
+  .event-container {
+    height: 80vh;
+  }
+  .date {
+    margin-top: 40px;
+    font-size: 2rem;
+    font-weight: 600;
+    font-family: "FuturaTEE", sans-serif;
+  }
+  .display-4 {
+    font-size: 2.5rem;
+    font-weight: 300;
+    line-height: 1.2;
+  }
+}
+/* iphone x screen size ENd */
+
+@media screen and (max-width: 360px) {
+  .event-container {
+    height: 100vh;
   }
 }
 

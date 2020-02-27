@@ -54,12 +54,23 @@
         <li class="nav-item">
           <a class="nav-link " href="#contact">Contact</a>
         </li>
+
+
       </ul>
+      <li class="float-sm-right"><a href=""><img src="discord.png"
+            style="width:60px; height:30px; object-fit:contain;   " alt=""></a>
+      </li>
+
+
     </div>
   </nav>
 
+
+
+
   <!-- huskyhack heading using flexbox-->
   <div class="d-flex text-center flex-column justify-content-between flex-container">
+
 
     <div class="flex-item1" style="color: #ce1f44;font-family: 'Sigmar One', cursive;
       font-family: 'Dancing Script', cursive;
@@ -88,7 +99,8 @@
     <div class="row">
 
       <div class="col-sm-12  ">
-        <h2 class="display-4 text-white  d-flex justify-content-center mt-3" style="display: block;">[ Event Info ]</h2>
+        <h2 class="display-4 text-white  d-flex justify-content-center mt-3 " style="display: block;">[ Event Info ]
+        </h2>
         <p class="date text-info d-flex justify-content-center mb-3">March <span style="color:#ce1f44;">21</span> <span
             style="color:white;">-</span>
           <span style="color:#ce1f44;">22</span></p>
@@ -112,11 +124,16 @@
       </div>
       <div class="col-sm-12 ">
         <div class="more-details ">
-          <div class="mb-2" onclick="/*popup1toggle('2');*/" href="Datasets.pdf" target="_blank"
-            style="cursor: pointer; text-decoration: underline; color:#fefefe">Project
-            Ideas and Data Resources</div>
-          <div onclick="/*popup1toggle('2');*/" class="mb-2 " href="Event Day Schedule.pdf" target="_blank"
-            style="cursor: pointer; text-decoration: underline; color:#fefefe">HuskiesHack Schedule</div>
+          <h2> <a class="mb-2" onclick="/*popup1toggle('2');*/" href="Datasets.pdf" target="_blank"
+              style="cursor: pointer; text-decoration: underline; color:#fefefe">Project
+              Ideas and Data Resources - <a href="https://hack.uiowa.edu/"
+                style="cursor: pointer; text-decoration: underline; color:yellow;" target=" _blank">HackUIowa</a>)</a>
+          </h2>
+          <br>
+          <h2><a onclick="/*popup1toggle('2');*/" class="mb-2  " href="Event Day Schedule.pdf" target="_blank"
+              style="cursor: pointer; text-decoration: underline; color:#fefefe">HuskiesHack Schedule</a>
+          </h2>
+
         </div>
       </div>
 
@@ -175,7 +192,7 @@
 
           <div id="Ques1" class="collapse " aria-labelledby="headingOne" data-parent="#accordion">
             <div class="card-body">
-              A hackathon is an invention marathon. A hackathon is an event, often between 24 and 48 hours in length,
+              A hackathon is an invention marathon. A hackathon is an 24 hour event,
               where various individuals come together as a group to create new, innovative software and hardware
               solutions
               collaboratively. The goal is for each group to have some functional software at the end of the event. The
@@ -198,7 +215,7 @@
             <h5 class="mb-0">
               <button id="faqbutton" class="btn first-faq-btn text-left text-white" data-toggle="collapse"
                 data-target="#Ques2" aria-expanded="true" aria-controls="Ques2">
-                <p class="mb-0"> What is HuskiesHack 2020?<i class="fas fa-chevron-down"></i></p>
+                <p class="mb-0"> What to bring? <i class="fas fa-chevron-down"></i></p>
 
               </button>
             </h5>
@@ -206,8 +223,12 @@
 
           <div id="Ques2" class="collapse " aria-labelledby="headingOne" data-parent="#accordion">
             <div class="card-body">
-              HuskyHack is a mini-version of a hackathon for SCSU students only.
-              If you participate, you will be working with a team of 4 people to create something awesome in 24 hrs.
+              <ul class="list-group text-indent mt-1" style="list-style: none;">
+                <li class="">- Laptop and charger</li>
+                <li class="">- Pillow</li>
+                <li class="">- Cellphone and charger</li>
+                <li class="">- Toiletries (Toothbrush, toothpaste, deodorant, etc.</li>
+              </ul>
 
             </div>
           </div>
@@ -215,7 +236,31 @@
       </div>
     </div>
 
+
     <!-- third faq -->
+    <div class="container faq-container">
+      <div id="accordion">
+        <div class="card text-white">
+          <div id="headingOne">
+            <h5 class="mb-0">
+              <button id="faqbutton" class="btn first-faq-btn text-left text-white" data-toggle="collapse"
+                data-target="#Ques2-a" aria-expanded="true" aria-controls="Ques2">
+                <p class="mb-0"> How many people can be in a group?<i class="fas fa-chevron-down"></i></p>
+
+              </button>
+            </h5>
+          </div>
+
+          <div id="Ques2-a" class="collapse " aria-labelledby="headingOne" data-parent="#accordion">
+            <div class="card-body">
+              Maximum number of 4 pepole in a team. You can also participate solo if you prefer.
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- fourth faq -->
 
     <div class="container faq-container">
       <div id="accordion">
@@ -250,7 +295,7 @@
 
 
 
-    <!-- fourth faq -->
+    <!-- fifth faq -->
     <div class="container faq-container">
       <div id="accordion">
         <div class="card text-white">
@@ -272,12 +317,13 @@
               learned something new from fellow students during the event.
 
 
-              <ul class="list-group text-indent">
-                <li class="">Unleash Your Creativity & Potential</li>
-                <li class="">Add value to Your Resume or CV to open up new doors in the future.</li>
-                <li class="">Work in a team to Enhance Your Soft Skills: Team Work, Collaboration & Communication.</li>
-                <li class="">Improve your real-world software development skills.</li>
-                <li class="">Applying what you learn in the Classroom & explore new Technology and Tools.</li>
+              <ul class="list-group text-indent mt-1" style="list-style: none;">
+                <li class="">- Unleash Your Creativity & Potential</li>
+                <li class="">- Add value to Your Resume or CV to open up new doors in the future.</li>
+                <li class="">- Work in a team to Enhance Your Soft Skills: Team Work, Collaboration & Communication.
+                </li>
+                <li class="">- Improve your real-world software development skills.</li>
+                <li class="">- Applying what you learn in the Classroom & explore new Technology and Tools.</li>
               </ul>
             </div>
           </div>
@@ -287,7 +333,7 @@
     </div>
 
 
-    <!-- fifth faq -->
+    <!-- sixth faq -->
     <div class="container faq-container">
       <div id="accordion">
         <div class="card text-white">
@@ -295,7 +341,8 @@
             <h5 class="mb-0">
               <button id="faqbutton" class="btn first-faq-btn text-left text-white" data-toggle="collapse"
                 data-target="#Ques5" aria-expanded="true" aria-controls="Ques5">
-                <p class="mb-0">Can I participate if I don’t know how to Code?<i class="fas fa-chevron-down"></i></p>
+                <p class="mb-0">Is hackathon for students who are new to programming?<i class="fas fa-chevron-down"></i>
+                </p>
 
               </button>
             </h5>
@@ -304,8 +351,7 @@
           <div id="Ques5" class="collapse " aria-labelledby="headingOne" data-parent="#accordion">
             <div class="card-body">
               Hackathons are not limited to computer science majors — anyone who has an interest in technology
-              and is eager to learn can participate in a hackathon. However, we do recommend you to have some
-              background on coding or some technology software to contribute to the team.
+              and is eager to learn can participate in a hackathon. It's a great place to begin your coding journey.
             </div>
           </div>
         </div>
@@ -313,7 +359,7 @@
     </div>
 
 
-    <!-- sixth faq -->
+    <!-- seventh faq -->
     <div class="container faq-container">
       <div id="accordion">
         <div class="card text-white">
@@ -340,6 +386,29 @@
       </div>
     </div>
 
+    <!-- 8th faq -->
+    <div class="container faq-container">
+      <div id="accordion">
+        <div class="card text-white">
+          <div id="headingOne">
+            <h5 class="mb-0">
+              <button id="faqbutton" class="btn first-faq-btn text-left text-white" data-toggle="collapse"
+                data-target="#Ques8" aria-expanded="true" aria-controls="Ques2">
+                <p class="mb-0"> Is it free to attend the competition?<i class="fas fa-chevron-down"></i></p>
+
+              </button>
+            </h5>
+          </div>
+
+          <div id="Ques8" class="collapse " aria-labelledby="headingOne" data-parent="#accordion">
+            <div class="card-body">
+              Yes! it's completely free. We will also provided free meal for participants.
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <!-- FAQ end -->
 

@@ -154,43 +154,6 @@ body {
 }
 
 /* ***************** Media Screen **************** */
-@media screen and (max-width: 340px) {
-  /* HuskyHack Cover  */
-  .moto-text {
-    margin-top: -9rem;
-    font-size: 1.2rem;
-  }
-
-  #LeadingText {
-    font-size: 1.2rem;
-  }
-
-  .main-hd {
-    font-size: 32px;
-  }
-
-  .flex-container {
-    background-size: 0%;
-    background-position: center 15%;
-    height: 50vh;
-    margin-bottom: 1rem;
-  }
-  .Location {
-    font-size: 20px;
-  }
-
-  /* *****Event Info ******** */
-  .event-summary {
-    font-size: 16px;
-    padding: 6px;
-  }
-
-  /* *****FAQ Section ******** */
-  #faq-hd {
-    font-size: 22px;
-    margin-bottom: 8%;
-  }
-}
 
 @media screen and (max-width: 480px) {
   /* *** HuskyHack Cover ****** */
@@ -251,5 +214,46 @@ body {
     width: 1000px;
     overflow: hidden;
     object-fit: contain;
+  }
+}
+
+@media screen and (max-width: 340px) {
+  /* HuskyHack Cover  */
+  .moto-text {
+    margin-top: -9rem;
+    font-size: 1.2rem;
+  }
+
+  #LeadingText {
+    font-size: 1.2rem;
+  }
+
+  .main-hd {
+    font-size: 32px;
+  }
+
+  .flex-container {
+    background-size: 0%;
+    background-position: center 15%;
+    height: 50vh;
+    margin-bottom: 1rem;
+  }
+  .Location {
+    font-size: 20px;
+  }
+
+  /* *****Event Info ******** */
+  .event-summary {
+    font-size: 16px;
+    padding: 6px;
+  }
+  .display-4 {
+    font-size: 1.2rem;
+  }
+
+  /* *****FAQ Section ******** */
+  #faq-hd {
+    font-size: 22px;
+    margin-bottom: 8%;
   }
 }

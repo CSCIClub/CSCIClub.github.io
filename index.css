@@ -283,10 +283,14 @@ body {
   .event-container {
     height: 100vh;
   }
+  .flex-container {
+    height: 90vh;
+  }
 }
 
 @media screen and (max-width: 340px) {
   /* HuskyHack Cover  */
+
   .moto-text {
     margin-top: -9rem;
     font-size: 1.2rem;

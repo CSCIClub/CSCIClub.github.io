@@ -199,16 +199,22 @@ body {
     font-weight: 700;
   }
 
+  .event-info-hd {
+    font-size: 30px;
+  }
+
   #RegisterBtn {
     font-size: 1.2rem;
     margin-top: 2rem;
   }
 
   .flex-container {
-    background-size: 90%;
-    background-position: center 10%;
-    height: 50vh;
-    margin-bottom: 2rem;
+    background: url("connect-logo.png");
+    width: 100%;
+    height: 75vh;
+    background-position: center 40%; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: contain;
   }
 
   #LeadingText {
@@ -222,6 +228,11 @@ body {
   .event-summary {
     font-size: 14px;
     padding: 4px;
+  }
+  .date {
+    font-size: 2rem;
+    font-weight: 600;
+    font-family: "FuturaTEE", sans-serif;
   }
 
   #faq-hd {
@@ -250,23 +261,15 @@ body {
     overflow: hidden;
     object-fit: contain;
   }
-  .flex-container {
-    background: url("connect-logo.png");
-    width: 100%;
-    height: 70vh;
-    background-position: center 40%; /* Center the image */
-    background-repeat: no-repeat; /* Do not repeat the image */
-    background-size: contain;
-  }
 }
 
 /* iphone x screen size */
 @media screen and (max-width: 375px) {
   .event-container {
-    height: 80vh;
+    height: 100vh;
   }
   .date {
-    margin-top: 40px;
+    margin-top: 10px;
     font-size: 2rem;
     font-weight: 600;
     font-family: "FuturaTEE", sans-serif;
@@ -284,7 +287,19 @@ body {
     height: 100vh;
   }
   .flex-container {
-    height: 85vh;
+    height: 90vh;
+  }
+  .more-details h2 {
+    font-size: 1rem;
+    margin-top: 0;
+  }
+  .lead {
+    font-size: 1rem;
+  }
+  .display-4 {
+    font-size: 1.8rem;
+    font-weight: 300;
+    line-height: 1.2;
   }
 }
 

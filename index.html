@@ -26,6 +26,36 @@
 
   <!-- animation css -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+  <script>
+    // Set the date we're counting down to
+    var countDownDate = new Date("March 15, 2020 23:59:00").getTime();
+
+    // Update the count down every 1 second
+    var x = setInterval(function () {
+
+      // Get today's date and time
+      var now = new Date().getTime();
+
+      // Find the distance between now and the count down date
+      var distance = countDownDate - now;
+
+      // Time calculations for days, hours, minutes and seconds
+      var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+      var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+      var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+      var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+      // Output the result in an element with id="demo"
+      document.getElementById("demo1").innerHTML = " " + days + "d " + hours + "h "
+        + minutes + "m " + seconds + "s ";
+
+      // If the count down is over, write some text 
+      if (distance < 0) {
+        clearInterval(x);
+        document.getElementById("demo1").innerHTML = "Registration Closed ";
+      }
+    }, 1000);
+  </script>
 
   <title>HuskiesHack</title>
 </head>
@@ -90,7 +120,7 @@
           href="
         https://forms.office.com/Pages/ResponsePage.aspx?id=xscRULQKq0ae9PrnSpIaf3gyv7IOWuRNrke59imawCFUMTE5RzdPRUVXNldHTVYzQ0xTOEkzSzU3Vi4u" target="_blank">Register
           Today!</a></button>
-
+      <p id="demo1" class="lead" style="color:yellow;"> </p>
       <p class="deadline-date ">- Application Deadline: March 15th, 2020 @ 11:59 pm.</p>
 
     </div>

@@ -306,6 +306,9 @@ body {
     font-weight: 300;
     line-height: 1.2;
   }
+  #moreQues-contact p {
+    font-size: 0.7rem !important;
+  }
 }
 
 @media screen and (max-width: 340px) {

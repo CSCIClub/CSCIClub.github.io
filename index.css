@@ -284,6 +284,10 @@ body {
     font-weight: 300;
     line-height: 1.2;
   }
+
+  #prizes {
+    font-size: 0.8rem;
+  }
 }
 /* iphone x screen size ENd */
 
@@ -308,6 +312,9 @@ body {
   }
   #moreQues-contact p {
     font-size: 0.7rem !important;
+  }
+  #prizes {
+    font-size: 0.8rem;
   }
 }
 

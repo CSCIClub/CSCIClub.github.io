@@ -146,6 +146,11 @@ body {
   margin-bottom: 10px;
 }
 
+#moreQues-contact {
+  margin: 0 auto;
+  text-align: center;
+}
+
 /*********** Footer Section ************  */
 
 .footer {

@@ -52,7 +52,7 @@
       // If the count down is over, write some text 
       if (distance < 0) {
         clearInterval(x);
-        document.getElementById("demo1").innerHTML = "Registration Closed ";
+        document.getElementById("demo1").innerHTML = "For everyone's safety, Hacakthon has been postponed to next semester. ";
       }
     }, 1000);
   </script>
@@ -97,8 +97,12 @@
     </div>
   </nav>
 
+  <!-- corona update msg -->
+  <div class="coronaUpdate">
+    <h2 class="text-black ">COVID-19 ALERT!</h2>
+    <p id="demo1" class="lead">For everyone's safety, Hacakthon has been postponed to next semester.</p>
 
-
+  </div>
 
   <!-- huskyhack heading using flexbox-->
   <div class="d-flex text-center flex-column justify-content-between flex-container">
@@ -120,8 +124,10 @@
           href="
         https://forms.office.com/Pages/ResponsePage.aspx?id=xscRULQKq0ae9PrnSpIaf3gyv7IOWuRNrke59imawCFUMTE5RzdPRUVXNldHTVYzQ0xTOEkzSzU3Vi4u" target="_blank">Register
           Today!</a></button>
-      <p id="demo1" class="lead" style="color:yellow;"> </p>
-      <p class="deadline-date ">- Application Deadline: March 15th, 2020 @ 11:59 pm.</p>
+
+
+      <!-- Deadline not decieded so commented out -->
+      <!-- <p class="deadline-date ">- Application Deadline Status: Still Open.</p> -->
 
     </div>
 
@@ -136,9 +142,15 @@
           <h2 class="display-4 event-info-hd text-white  d-flex justify-content-center mt-3 " style="display: block;">[
             Event Info ]
           </h2>
-          <p class="date text-info d-flex justify-content-center mb-3">March <span style="color:#ce1f44;">21</span>
-            <span style="color:white;">-</span>
-            <span style="color:#ce1f44;">22</span></p>
+
+          <!-- date set to hidden until further notice -->
+          <div class="even-details" style="visibility: hidden;">
+            <p class="date text-info d-flex justify-content-center mb-3">March <span style="color:#ce1f44;">21</span>
+              <span style="color:white;">-</span>
+              <span style="color:#ce1f44;">22</span></p>
+          </div>
+          <!-- date set to hidden until further notice End -->
+
           <p class="Location text-white d-flex justify-content-center mb-5" style="font-family:cursive;">@ ISELF St.
             Cloud State University</p>
         </div>
@@ -215,22 +227,48 @@
 
   <!-- Section FAQ -->
   <section id="faq" class="mb-5">
+
     <div class="container faq-container mt-5">
       <h4 class="text-center display-4" id="faq-hd">[ FAQs ]</h4>
       <div id="accordion ">
 
+        <div class="card text-black" style="background-color:yellow;">
+          <div id=" headingOne">
+            <h5 class="mb-0">
+              <button id="faqbutton" class="btn first-faq-btn text-left text-black" data-toggle="collapse"
+                data-target="#Ques1" aria-expanded="true" aria-controls="Ques1">
+                <p class="mb-0"> CORONAVIRUS/COVID-19 UPDATE? <i class="fas fa-chevron-down"></i></p>
+
+              </button>
+            </h5>
+          </div>
+
+          <div id="Ques1" class="collapse " aria-labelledby="headingOne" data-parent="#accordion" ">
+            <div class=" card-body">
+            For everyone safety, Hackathon has been postponed for next semester. However, we are still taking
+            application for next semester.We apologize for the inconvenience this issue might have caused you.
+          </div>
+        </div>
+      </div>
+
+    </div>
+    </div>
+
+    <!-- 1-1.a faq -->
+    <div class="container faq-container">
+      <div id="accordion">
         <div class="card text-white">
           <div id="headingOne">
             <h5 class="mb-0">
               <button id="faqbutton" class="btn first-faq-btn text-left text-white" data-toggle="collapse"
-                data-target="#Ques1" aria-expanded="true" aria-controls="Ques1">
+                data-target="#Ques2" aria-expanded="true" aria-controls="Ques2">
                 <p class="mb-0"> What is Hackathon? <i class="fas fa-chevron-down"></i></p>
 
               </button>
             </h5>
           </div>
 
-          <div id="Ques1" class="collapse " aria-labelledby="headingOne" data-parent="#accordion">
+          <div id="Ques2" class="collapse " aria-labelledby="headingOne" data-parent="#accordion">
             <div class="card-body">
               A hackathon is an invention marathon. A hackathon is an 24 hour event,
               where various individuals come together as a group to create new, innovative software and hardware
@@ -244,10 +282,8 @@
             </div>
           </div>
         </div>
-
       </div>
     </div>
-
 
     <!-- second faq -->
     <div class="container faq-container">
@@ -485,56 +521,9 @@
       </div>
     </div>
 
-    <!-- 9th faq -->
-    <!-- <div class="container faq-container">
-      <div id="accordion">
-        <div class="card text-white">
-          <div id="headingOne">
-            <h5 class="mb-0">
-              <button id="faqbutton" class="btn first-faq-btn text-left text-white" data-toggle="collapse"
-                data-target="#Ques9" aria-expanded="true" aria-controls="Ques2">
-                <p class="mb-0"> Is it open to student from different university?<i class="fas fa-chevron-down"></i></p>
-
-              </button>
-            </h5>
-          </div>
-
-          <div id="Ques9" class="collapse " aria-labelledby="headingOne" data-parent="#accordion">
-            <div class="card-body">
-              Unfortunately, No! This is our first Hackathon so we are trying to narrow it down to only St. Cloud State
-              University Student.
-
-            </div>
-          </div>
-        </div>
-      </div>
-    </div> -->
 
 
 
-    <!-- 10th faq -->
-    <div class="container faq-container">
-      <div id="accordion">
-        <div class="card text-white">
-          <div id="headingOne">
-            <h5 class="mb-0">
-              <button id="faqbutton" class="btn first-faq-btn text-left text-white" data-toggle="collapse"
-                data-target="#Ques10" aria-expanded="true" aria-controls="Ques2">
-                <p class="mb-0"> When does the event start?<i class="fas fa-chevron-down"></i></p>
-
-              </button>
-            </h5>
-          </div>
-
-          <div id="Ques10" class="collapse " aria-labelledby="headingOne" data-parent="#accordion">
-            <div class="card-body">
-              The event will be from 10am(saturday)- 4pm(sunday).
-
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
 
     <!-- 11th faq -->
     <div class="container faq-container">
@@ -552,10 +541,8 @@
 
           <div id="Ques11" class="collapse " aria-labelledby="headingOne" data-parent="#accordion">
             <div class="card-body">
-              The registration will be closed at March 15 midnight.
-              Any application received after that will be under waiting list and will be admitted on a
-              space-available
-              basis after those who RSVP'd before we filled up. We hope to see you there.
+              The registration is still open even though Hackathon has been postponed to next semester. Any further
+              updates on event info will be notified by email.
 
             </div>
           </div>

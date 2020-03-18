@@ -71,6 +71,19 @@ body {
 }
 /* *****Register Button */
 
+/* coronavirus update msg */
+.coronaUpdate {
+  margin: 0 auto;
+  background-color: yellow;
+  font-family: "Arial Black", Gadget, sans-serif;
+  text-align: center;
+}
+#demo1 {
+  color: black !important;
+
+  font-size: 1.1em;
+}
+
 /* Application Deadine */
 .deadline-date {
   font-family: Helvetica Neue;

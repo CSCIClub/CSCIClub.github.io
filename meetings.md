@@ -1,4 +1,4 @@
-# Computer Science Club Meetings
+# Computer Science Club Meeting Videos
 
 | Date | Topic      | Links |
 | ----------- | ----------- | ----------- |

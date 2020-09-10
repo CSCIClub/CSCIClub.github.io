@@ -1,12 +1,12 @@
 
+[[_TOC_]]
 # [CSCI Club](#csci-club)
    - [Introduction](#computer-science-club-computer)
    - [Our Mission](#our-mission-star)
    - [General Information](#general-information-school_satchel)
    - [Events](#events-newspaper)
-   - [Meetings](#meetings)
+   - [Meetings](#meetings-date)
    - [Resources](#resources-information_source)
-   - [Surveys](#surveys-page_with_curl)
    - [Announcements](#announcements-speaker)
    - [Contact](#contact-phone)
 
@@ -71,7 +71,7 @@ Our mission is to prepare students for a successful career by organizing events 
  - Link to PowerPoint prepping for interviews [HERE](https://docs.google.com/presentation/d/1W546HdErPJ653AfJDIzm424gA3gFx8Tz4pNrucYa7lo/edit#slide=id.p)
  
 
-# Surveys :page_with_curl:
+### Surveys :page_with_curl:
 
 <!-- <iframe src="" width="640" height="2761" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
 -->

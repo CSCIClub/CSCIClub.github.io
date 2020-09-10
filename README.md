@@ -96,6 +96,6 @@ Email: <csciclub@stcloudstate.edu>
 :copyright: Computer Science Club
 
 [HuskiesConnect]: http://slashdot.org
-[huskiesHack]: https://csciclub.github.io
+[huskiesHack]:  https://csciclub.github.io/huskieshack/ 
 [Membership Application & Survey]: https://huskiesconnect.stcloudstate.edu/submitter/form/start/438938
 [HuskiesConnect Officer Application]: https://huskiesconnect.stcloudstate.edu/submitter/form/start/438942

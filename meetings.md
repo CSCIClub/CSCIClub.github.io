@@ -1,8 +1,8 @@
-# Computer Science Club Meetings Updates for September 9/20
+# Computer Science Club Meetings
 
-| Topic      | Links |
-| ----------- | ----------- |
-| A Guide to Computer Science at St Cloud State      | [Presentation], [Slides]      |
+| Date | Topic      | Links |
+| ----------- | ----------- | ----------- |
+| Sept 9th, 2020 | A Guide to Computer Science at St Cloud State      | [Presentation], [Slides]      |
 
 ---
 Join our Mailing List: [HuskiesConnect] <br>

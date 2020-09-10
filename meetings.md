@@ -2,7 +2,7 @@
 
 | Topic      | Links |
 | ----------- | ----------- |
-| Brief Intro to Computer Science Presentation      | [Presentation] | [Slides]      |
+| Brief Intro to Computer Science Presentation      | [Presentation]  [Slides]      |
 | Join our Mailing List   | [HuskiesConnect]       |
 | Club Website  | [ClubWebsite] |
 

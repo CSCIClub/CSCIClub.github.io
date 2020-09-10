@@ -2,11 +2,11 @@
 
 | Topic      | Links |
 | ----------- | ----------- |
-| Brief Intro to Computer Science Presentation      | [1]       |
+| Brief Intro to Computer Science Presentation      | [Presentation] | [Slides]      |
 | Join our Mailing List   | [HuskiesConnect]       |
 | Club Website  | [ClubWebsite] |
 
-
-[1]: https://docs.google.com/presentation/d/1CiSxcT7x4befMnzWJwQ_x3q8ZNxY2cu8KxWuHGl1uDQ/edit?usp=sharing
+[]
+[Slides]: https://docs.google.com/presentation/d/1CiSxcT7x4befMnzWJwQ_x3q8ZNxY2cu8KxWuHGl1uDQ/edit?usp=sharing
 [HuskiesConnect]: https://huskiesconnect.stcloudstate.edu/organization/association-for-computing-machinery
 [ClubWebsite]: https://csciclub.github.io/

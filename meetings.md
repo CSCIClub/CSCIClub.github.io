@@ -2,7 +2,7 @@
 
 | Date | Topic      | Links |
 | ----------- | ----------- | ----------- |
-| Sept 9th, 2020 | A Guide to Computer Science at St Cloud State      | [Presentation], [Slides]      |
+| Sept 9th, 2020 | A Guide to Computer Science at St. Cloud State      | [Presentation], [Slides]      |
 
 ---
 Join our Mailing List: [HuskiesConnect] <br>

@@ -4,7 +4,7 @@
 | ----------- | ----------- |
 | A Guide to Computer Science at St Cloud State      | [Presentation], [Slides]      |
 ________________
-Join our Mailing List: [HuskiesConnect] 
+Join our Mailing List: [HuskiesConnect] <br>
 Back to the Club Website: [ClubWebsite]
 
 [Presentation]: https://youtube.com

@@ -1,5 +1,3 @@
-
-[[_TOC_]]
 # [CSCI Club](#csci-club)
    - [Introduction](#computer-science-club-computer)
    - [Our Mission](#our-mission-star)

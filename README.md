@@ -42,8 +42,9 @@ Our mission is to prepare students for a successful career by organizing events 
 
 # Meetings :date:
 
-- **Meeting Update** September 9th @3 pm
-  - [Link](meetings.md)
+- **Every Wednesday, 3pm - 4pm**
+- **Attend in Person (ECC117) or via Zoom**
+- **Recordings of Past Meetings: [Link](meetings.md)**
   
 # Resources :information_source:
 

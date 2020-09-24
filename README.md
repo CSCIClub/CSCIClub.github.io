@@ -33,12 +33,22 @@ Our mission is to prepare students for a successful career by organizing events 
 
 # Events :newspaper:
 
-- **GeoComm on Amazon Web Services** September 30th @3 pm - ZOOM
+- **GeoComm on Amazon Web Services** September 30th @3 pm - [ZOOM LINK] 
+  - [Join our mailing list to get the updates](HuskiesConnect)
+  <details> 
+   <summary> More Info! </summary>
+    ![GeoComm Career Session](./images/GeoComm Career Session.jgp)
+   </details>
+  
+- **Q&A with Software Engineer from Google: Patrick Bahuman** October 16th @1 pm - [ZOOM LINK]
   - [Join our mailing list to stay updated](HuskiesConnect)
   
 - **Virutal Hack-a-thon**
   - When: **Oct 24th - 25th**
-  - Register here: [HUSKIESHACK](huskiesHack)
+  - Register here: [HUSKIESHACK](huskiesHack) 
+  <details> <summary> More Info! </summary>
+   ![HuskiesHack Fall 2020](./images/HuskiesHack Fall 2020 Social Media.png)
+   </details>
 
 # Meetings :date:
 
@@ -98,3 +108,4 @@ Email: <csciclub@stcloudstate.edu>
 [huskiesHack]:  https://csciclub.github.io/huskieshack/ 
 [Membership Application & Survey]: https://huskiesconnect.stcloudstate.edu/submitter/form/start/438938
 [HuskiesConnect Officer Application]: https://huskiesconnect.stcloudstate.edu/submitter/form/start/438942
+[ZOOM LINK]: https://minnstate.zoom.us/j/93807081222

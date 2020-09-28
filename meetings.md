@@ -3,7 +3,7 @@
 | Date | Topic      | Links |
 | ----------- | ----------- | ----------- |
 | Sept 9th, 2020 | A Guide to Computer Science at St. Cloud State      | [Presentation][9/9 Video], [Slides][9/9 Slides]      |
-| Sept 23rd, 2020 | GitHub and You      | [Presentation][9/23 Video], [Slides][9/23 Slides]      |
+| Sept 23rd, 2020 | GitHub and You       | [Presentation][9/23 Video], [Slides][9/23 Slides]      |
 
 ---
 Join our Mailing List: [HuskiesConnect] <br>

@@ -37,7 +37,9 @@ Our mission is to prepare students for a successful career by organizing events 
   - [Join our mailing list to get the updates](HuskiesConnect)
   <details> 
    <summary> More Info! </summary>
-    ![GeoComm Career Session](./images/GeoCommCareerSession.jpg)
+   Event Poster
+<!--          ![GeoCommCareerSession](./images/GeoCommCareerSession.jpg) -->
+         <img align="center" src="./images/GeoCommCareerSession.jpg" alt="GEOCOMM" width="200px" height="300px"/>
    </details>
   
 - **Q&A with Software Engineer from Google: Patrick Bahuman** October 16th @1 pm - [ZOOM LINK]
@@ -47,8 +49,9 @@ Our mission is to prepare students for a successful career by organizing events 
   - When: **Oct 24th - 25th**
   - Register here: [HUSKIESHACK](huskiesHack) 
   <details> <summary> More Info! </summary>
-   ![HuskiesHack Fall 2020](./images/HuskiesHack Fall 2020 Social Media .png)
-   </details>
+    Event Poster
+    <img align="center" src="./images/HuskiesHack Fall 2020 Social Media .png" alt="POSTER" width="200px" height="300px"/>
+  </details>
 
 # Meetings :date:
 

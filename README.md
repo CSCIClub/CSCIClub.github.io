@@ -18,6 +18,8 @@ The Computer Science Club is a student organization founded in March 2014. While
 Our mission is to prepare students for a successful career by organizing events that provide them with supplementary computer science knowledge and expand their professional/personal networks.
 > Join us to create a better programming community.
 
+<!-- ******* General Info ******** --> 
+
 # General Information :school_satchel:
 
 **Information**
@@ -31,33 +33,40 @@ Our mission is to prepare students for a successful career by organizing events 
     - Have an impact during your school life
     - [HuskiesConnect Officer Application]
 
+<!-- ******* Events ******** --> 
 # Events :newspaper:
 
 - **GeoComm on Amazon Web Services** September 30th @3 pm - [ZOOM LINK] 
   - [Join our mailing list to get the updates](HuskiesConnect)
   <details> 
    <summary> More Info! </summary>
-   Event Poster
-<!--          ![GeoCommCareerSession](./images/GeoCommCareerSession.jpg) -->
-         <img align="center" src="./images/GeoCommCareerSession.jpg" alt="GEOCOMM" width="200px" height="300px"/>
+    <img align="center" src="./images/GeoCommCareerSession.jpg" alt="GEOCOMM" width="200px" height="300px"/>
    </details>
   
 - **Q&A with Software Engineer from Google: Patrick Bahuman** October 16th @1 pm - [ZOOM LINK]
   - [Join our mailing list to stay updated](HuskiesConnect)
+  <details> 
+   <summary> More Info! </summary>
+    <img align="center" src="./images/GoogleSession.jpg" alt="GEOCOMM" width="200px" height="300px"/>
+   </details>
   
 - **Virutal Hack-a-thon**
   - When: **Oct 24th - 25th**
   - Register here: [HUSKIESHACK](huskiesHack) 
   <details> <summary> More Info! </summary>
-    Event Poster
     <img align="center" src="./images/HuskiesHack Fall 2020 Social Media .png" alt="POSTER" width="200px" height="300px"/>
   </details>
+
+
+<!-- ********* Meetings ******* --> 
 
 # Meetings :date:
 
 - **Every Wednesday, 3pm - 4pm**
 - **Attend in Person (ECC117) or via Zoom**
 - **Recordings of Past Meetings: [Link](meetings.md)**
+  
+<!-- ******* Resources ******** --> 
   
 # Resources :information_source:
 
@@ -89,6 +98,7 @@ Our mission is to prepare students for a successful career by organizing events 
 -->
 [Membership Application & Survey]
 
+<!-- ******* Annoucements ******** --> 
 
 # Announcements :speaker:
 
@@ -97,6 +107,9 @@ Our mission is to prepare students for a successful career by organizing events 
 1. **COSE Career Prep Event: Resume Review:** *Please _RSVP_ to **Stephen Janasie** at <sjanasie@stcloudstate.edu>*
 2. **Virutal COSE Job Fair:** Wednesday, October 7th 12:00 PM - 3:00 PM
       Register at [Handshake](https://stcloudstate.joinhandshake.com/)
+
+
+<!-- ******* Contacts ******** --> 
 
 # Contact :phone:
 

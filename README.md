@@ -45,16 +45,17 @@ Our mission is to prepare students for a successful career by organizing events 
   
 - **Q&A with Software Engineer from Google: Patrick Bahuman** October 16th @1 pm - [ZOOM LINK]
   - [Join our mailing list to stay updated](HuskiesConnect)
+  - Patrick is a software engineer at Google with 12 years in the industry, currently working on the Android framework at Google. He previously worked for Amazon as an Android developer on the Appstore for Android and for The Boeing Company in Huntington Beach, California. He earned my BS in computer engineering from SCSU in 2008 and my MS in software engineering from Carnegie Mellon University's remote program in 2011.
   <details> 
    <summary> More Info! </summary>
-    <img align="center" src="./images/GoogleSession.jpg" alt="GEOCOMM" width="200px" height="300px"/>
+    <img align="center" src="./images/Patrick Google Q&A.jpg" alt="GEOCOMM" width="400px" height="500px"/>
    </details>
   
 - **Virutal Hack-a-thon**
   - When: **Oct 24th - 25th**
   - Register here: [HUSKIESHACK](huskiesHack) 
   <details> <summary> More Info! </summary>
-    <img align="center" src="./images/HuskiesHack Fall 2020 Social Media .png" alt="POSTER" width="200px" height="300px"/>
+    <img align="center" src="./images/HuskiesHack Fall 2020 Social Media .png" alt="POSTER" width="500px" height="500px"/>
   </details>
 
 

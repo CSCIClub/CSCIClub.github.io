@@ -53,7 +53,7 @@ Our mission is to prepare students for a successful career by organizing events 
   
 - **Virutal Hack-a-thon**
   - When: **Oct 24th - 25th**
-  - Register here: [HUSKIESHACK](huskiesHack) 
+  - Register here: [HUSKIESHACK][HuskiesHack] 
   <details> <summary> More Info! </summary>
     <img align="center" src="./images/HuskiesHack Fall 2020 Social Media .png" alt="POSTER" width="500px" height="500px"/>
   </details>
@@ -122,7 +122,7 @@ Email: <csciclub@stcloudstate.edu>
 :copyright: Computer Science Club
 
 [HuskiesConnect]: http://slashdot.org
-[huskiesHack]:  https://csciclub.github.io/huskieshack/ 
+[HuskiesHack]:  https://csciclub.github.io/huskieshack/ 
 [Membership Application & Survey]: https://huskiesconnect.stcloudstate.edu/submitter/form/start/438938
 [HuskiesConnect Officer Application]: https://huskiesconnect.stcloudstate.edu/submitter/form/start/438942
 [ZOOM LINK]: https://minnstate.zoom.us/j/93807081222

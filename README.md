@@ -51,9 +51,9 @@ Our mission is to prepare students for a successful career by organizing events 
     <img align="center" src="./images/Patrick Google Q&A.jpg" alt="GEOCOMM" width="400px" height="500px"/>
    </details>
   
-- **Virutal Hack-a-thon**
+- **Virtual Hack-a-thon**
   - When: **Oct 24th - 25th**
-  - Register here: [HUSKIESHACK][HuskiesHack] 
+  - Register here: [HuskiesHack][HuskiesHack] 
   <details> <summary> More Info! </summary>
     <img align="center" src="./images/HuskiesHack Fall 2020 Social Media .png" alt="POSTER" width="500px" height="500px"/>
   </details>

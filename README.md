@@ -9,6 +9,8 @@
    - [Contact](#contact-phone)
 
 <!-- /TOC -->
+ _ 
+<a href="http://csciclub.github.io/huskieshack" rel="hackathon"><img align="center" src="./images/HuskiesHack Fall 2020 Social Media .png" alt="POSTER" width="500px" height="500px"/><br>Huskies Hack Webiste Register Soon!</a>
 
 # Computer Science Club :computer:
 

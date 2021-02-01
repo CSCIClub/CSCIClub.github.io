@@ -26,8 +26,8 @@ Our mission is to prepare students for a successful career by organizing events 
 
 **Information**
 
- - Located in `ECC 102e`
- - Meet weekly on `Wednesday, 3pm - 4 pm (Updates every semester)`
+ - Located in `ECC118`
+ - Meet weekly on `Friday, 3pm - 4 pm (Updates every semester)`
  - Host `Workshops` and `Informational Session` on topics ranging from **Machine Learning** to **Intro to Computer Science**
  - Become a Member [HuskiesConnect]
  - Become an Officer
@@ -65,8 +65,8 @@ Our mission is to prepare students for a successful career by organizing events 
 
 # Meetings :date:
 
-- **Every Wednesday, 3pm - 4pm**
-- **Attend in Person (ECC117) or via Zoom**
+- **Every Friday, 3pm - 4pm**
+- **Attend in Person (ECC118) or via Zoom**
 - **Recordings of Past Meetings: [Link](meetings.md)**
   
 <!-- ******* Resources ******** --> 
